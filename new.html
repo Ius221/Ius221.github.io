@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        /* CSS styles for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            /* Set background color */
+        }
+
+        /* CSS styles for the header section */
+        header {
+            background-color: #343a40;
+            /* Set background color 'HEADER'*/
+            color: #ffffff;
+            /* Set text color 'HEADER'*/
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* CSS styles for the navigation links */
+        nav {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            /* Set text color */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* CSS styles for each section */
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* CSS styles for the "About Me" section */
+        .about-me {
+            background-color: #ffffff;
+            /* Set background color */
+        }
+
+        /* CSS styles for the "Portfolio" section */
+        .portfolio {
+            background-color: #f8f9fa;
+            /* Set background color */
+        }
+
+        /* CSS styles for the "Contact" section */
+        .contact {
+            background-color: #ffffff;
+            /* Set background color */
+        }
+
+        /* CSS styles for the footer section */
+        footer {
+            background-color: #343a40;
+            /* Set background color */
+            color: #ffffff;
+            /* Set text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* CSS styles for the image gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 200px;
+            /* Set image width */
+            margin: 10px;
+            /* Set margin around images */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section with page title and navigation links -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Me section -->
+    <section id="about" class="about-me">
+        <h2>About Me</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+            saepe illum debitis accusantium doloremque odio, facilis perferendis
+            aspernatur officiis impedit? Quod omnis aliquid natus necessitatibus
+            ratione voluptate tempora facilis. Impedit? Amet perspiciatis tempora
+            libero ducimus nihil magni, incidunt error, ab mollitia nisi itaque
+            repudiandae! Fugit, iure voluptates quod beatae eum quae vel
+            reprehenderit veniam quibusdam iusto eligendi corporis recusandae
+            quasi!.
+        </p>
+    </section>
+
+    <!-- Portfolio section with image gallery -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200" alt="Project 1" />
+            <img src="https://via.placeholder.com/200" alt="Project 2" />
+            <img src="https://via.placeholder.com/200" alt="Project 3" />
+        </div>
+    </section>
+
+    <!-- Contact section with a contact form -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required /><br />
+            <input type="email" name="email" placeholder="Your Email" required /><br />
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br />
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
